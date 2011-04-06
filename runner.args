@@ -1,0 +1,3 @@
+--vmOptions=-agentlib:jdwp=transport=dt_socket,suspend=n,server=y,address=5000 -Dobr.repository.url=~/.m2/repository/repository.xml
+--profiles=compendium,config,obr,event,felix.metatype,felix.webconsole
+--framework=felix

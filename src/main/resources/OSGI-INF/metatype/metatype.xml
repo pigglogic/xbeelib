@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright (c) 2009, Pigg Logic, LLC
+    All rights reserved.
+
+    This code is provided under a modified BSD license as provided in the the file LICENSE.TXT
+
+-->
+
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0">
+
+  <OCD description="xbee-service" name="net.michaelpigg.xbeelib.xbeeservice" id="net.michaelpigg.xbeelib.xbeeservice">
+
+    <AD name="XBee Serial Port"  id="xbee.port" required="true" type="String" default="/dev/USB0"/>
+
+  </OCD>
+
+    <Designate pid="net.michaelpigg.xbeelib.xbeeservice" factoryPid="net.michaelpigg.xbeelib.xbeeservice">
+        <Object ocdref="net.michaelpigg.xbeelib.xbeeservice"/>
+    </Designate>
+
+</metatype:MetaData>

@@ -1,0 +1,4 @@
+Copyright (c) 2009, Pigg Logic, LLC
+All rights reserved.
+
+This code is provided under a modified BSD license as provided in the the file LICENSE.TXT
